@@ -1,0 +1,10 @@
+*.pyc
+.env
+
+#Input and instruction files must be kept private
+*.csv
+*.pdf
+
+# keep output folder but ignore outputs
+!output/.gitkeep
+output/*
